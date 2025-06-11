@@ -5,8 +5,12 @@ export const StyledCanvas = styled.canvas`
   top: 0;
   left: 0;
 
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 
   background-color: black;
+`;
+
+export const ChildrenWrapper = styled.div`
+  position: absolute;
 `;

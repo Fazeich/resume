@@ -75,12 +75,12 @@ export const drawTriangle = (ctx) => (triangle) => {
   ctx.lineTo(centerX + size / 2, centerY - (size * Math.sqrt(3)) / 4);
   ctx.lineTo(centerX, centerY + (size * Math.sqrt(3)) / 4);
   ctx.closePath();
-  ctx.strokeStyle = `rgba(255, 255, 255, ${triangle.opacity})`;
+  ctx.strokeStyle = `rgba(120, 120, 120, ${triangle.opacity})`;
   ctx.lineWidth = 2;
   ctx.stroke();
 
   const pointRadius = 3;
-  ctx.fillStyle = `rgba(255, 255, 255, ${triangle.opacity})`;
+  ctx.fillStyle = `rgba(120, 120, 120, ${triangle.opacity})`;
 
   ctx.beginPath();
   ctx.arc(

@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { StyledCanvas } from "../lib/styles";
+import { ChildrenWrapper, StyledCanvas } from "../lib/styles";
 import {
   createGradient,
   createTriangle,
@@ -79,7 +79,7 @@ export const Background: FC<{ children }> = ({ children }) => {
   return (
     <div>
       <StyledCanvas ref={canvasRef} />
-      {children}
+      <ChildrenWrapper>{children}</ChildrenWrapper>
     </div>
   );
 };
