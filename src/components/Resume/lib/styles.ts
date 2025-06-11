@@ -2,7 +2,6 @@ import styled from "@emotion/styled";
 
 export const ResumeWrapper = styled.div`
   width: 100vw;
-  height: 100vh;
 
   display: flex;
   align-items: flex-start;
@@ -11,16 +10,12 @@ export const ResumeWrapper = styled.div`
   padding: 20px;
 
   color: white;
-
-  overflow: hidden;
-  overflow-y: scroll;
 `;
 
 export const ResumeContainer = styled.div`
   max-width: 896px;
   padding: 24px;
   background: inherit;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 
   @media (max-width: 768px) {
@@ -89,6 +84,8 @@ export const ImpactGrid = styled.ul`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 16px;
+
+  list-style: inside;
 `;
 
 export const ExperienceItem = styled.div`

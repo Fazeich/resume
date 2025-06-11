@@ -13,7 +13,7 @@ export const HeaderBlock = () => {
           📧 vladislavchenko@inbox.ru
         </a>
         <span>|</span>
-        <span>📱 +7 (999) 772-8832</span>
+        <span>📱 +7 (999) 772-88-32</span>
         <span>|</span>
         <a href="https://t.me/samsyaaa">💬 @samsyaaa</a>
       </ContactLinks>

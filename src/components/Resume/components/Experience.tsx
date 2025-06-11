@@ -41,10 +41,6 @@ export const Experience = () => {
             efficiency.
           </li>
         </List>
-        <Quote>
-          "Vlad brought structure to chaos. The frontend became not only stable,
-          but future-proof." – Product Lead
-        </Quote>
         <p>
           <Highlight>🛠 Tech:</Highlight> React, TypeScript, MobX, Vite, Module
           Federation, MUI, Emotion

@@ -4,6 +4,8 @@ import { DARK_THEME, LIGHT_THEME } from "./lib/theme";
 import { $main } from "./store/main";
 import Background from "./components/Background";
 import Resume from "./components/Resume";
+import Projects from "./components/Projects";
+import styled from "@emotion/styled";
 
 export const App = () => {
   const { theme } = useUnit($main);
@@ -12,6 +14,7 @@ export const App = () => {
     <ThemeProvider theme={theme === "light" ? LIGHT_THEME : DARK_THEME}>
       <Background>
         <Resume />
+        <Projects />
       </Background>
     </ThemeProvider>
   );

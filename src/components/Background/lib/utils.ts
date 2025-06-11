@@ -125,8 +125,7 @@ export const createGradient = (ctx, mouseX, mouseY) => {
     300
   );
 
-  gradient.addColorStop(0, "rgba(0, 0, 0, 0)");
-  gradient.addColorStop(1, "rgba(0, 0, 0, 0.9)");
+  gradient.addColorStop(0, "rgba(15, 15, 31, 0.9)");
 
   return gradient;
 };
