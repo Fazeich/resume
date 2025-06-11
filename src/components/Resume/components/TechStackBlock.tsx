@@ -1,4 +1,3 @@
-import React from "react";
 import { Highlight, Section, SectionTitle, TechStack } from "../lib/styles";
 
 export const TechStackBlock = () => {

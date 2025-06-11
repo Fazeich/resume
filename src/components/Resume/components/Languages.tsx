@@ -1,4 +1,3 @@
-import React from "react";
 import { List, Section, SectionTitle } from "../lib/styles";
 
 export const Languages = () => {

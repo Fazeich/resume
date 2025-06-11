@@ -1,4 +1,3 @@
-import React from "react";
 import { ResumeContainer, ResumeWrapper } from "../lib/styles";
 import { HeaderBlock } from "../components/HeaderBlock";
 import { MissionStatement } from "../components/MissionStatement";

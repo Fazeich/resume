@@ -1,4 +1,3 @@
-import React from "react";
 import { ContactInfo, ContactLinks, Header, Name, Title } from "../lib/styles";
 
 export const HeaderBlock = () => {

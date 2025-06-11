@@ -1,4 +1,3 @@
-import React from "react";
 import { Highlight, ImpactGrid, Section, SectionTitle } from "../lib/styles";
 
 export const Impacts = () => {

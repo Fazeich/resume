@@ -1,4 +1,3 @@
-import React from "react";
 import { Quote, Section, SectionTitle } from "../lib/styles";
 
 export const MissionStatement = () => {
