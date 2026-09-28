@@ -4,7 +4,6 @@ import {
   JobMeta,
   JobTitle,
   List,
-  Quote,
   Section,
   SectionTitle,
 } from "../lib/styles";
