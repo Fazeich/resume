@@ -9,13 +9,13 @@ export const HeaderBlock = () => {
         <p>Moscow, Russia | Open to Remote & Relocation</p>
       </ContactInfo>
       <ContactLinks>
-        <a href="mailto:vladislavchenko@inbox.ru">
-          📧 vladislavchenko@inbox.ru
+        <a href="mailto:vladislavchenko.ss@gmail.com">
+          📧 vladislavchenko.ss@gmail.com
         </a>
         <span>|</span>
         <span>📱 +7 (999) 772-88-32</span>
         <span>|</span>
-        <a href="https://t.me/samsyaaa">💬 @samsyaaa</a>
+        <a href="https://t.me/wazzupper">💬 @wazzupper</a>
       </ContactLinks>
     </Header>
   );
